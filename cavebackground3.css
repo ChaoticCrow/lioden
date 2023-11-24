@@ -17,7 +17,7 @@ min-width: 600px !important;
 }
 
 .col-md-9.col-xs-12 {
-background: #0a0134 !important;
+background-color: rgba(0, 0, 0, 0.0) !important;
 border: 4px double #000000 !important;
 border-top: none !important;
 border-right: none !important;
@@ -26,7 +26,7 @@ opacity: 1;
 }
 
 div.container.main {
-background-color: rgba(200, 200, 200, 0.3) !important;
+background-color: rgba(0, 0, 0, 0.0) !important;
 border: 4px double #000000 !important;
 border-left: none !important;
 }
