@@ -21,13 +21,12 @@ background: #0a0134 !important;
 border: 4px double #000000 !important;
 border-top: none !important;
 border-right: none !important;
-border-bottom:none !important;
+border-bottom: none !important;
 opacity: 1;
 }
 
 div.container.main {
-background: #0a0134 !important;
+background-color: rgba(200, 200, 200, 0.3) !important;
 border: 4px double #000000 !important;
 border-left: none !important;
-opacity: 0.3;
 }
