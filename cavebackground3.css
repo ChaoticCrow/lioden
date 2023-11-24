@@ -1,0 +1,31 @@
+@media (min-width:768px) {
+body {
+background: url('https://i.imgur.com/6ZNf19b.png') center center fixed !important;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+}
+
+@media (max-width: 768px) {
+body {
+background: url('https://i.imgur.com/6ZNf19b.png') center center fixed !important;
+background-repeat: no-repeat;
+background-size: 100%;
+width: auto !important;
+min-width: 600px !important;
+}
+}
+
+.col-md-9.col-xs-12 {
+background: #0a0134 !important;
+border: 4px double #000000 !important;
+border-top: none !important;
+border-right: none !important;
+border-bottom :none !important;
+}
+
+div.container.main {
+background: #0a0134 !important;
+border: 4px double #000000 !important;
+border-left: none !important;
+}
