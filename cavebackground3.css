@@ -82,16 +82,38 @@ input.floatright:hover {
 }
 
 button.button {
-	background: rgba(0, 0, 0, 0.0);
+  background: rgba(0, 0, 0, 0.0);
   border: none !important;
-	border-radius: 0px;
+  border-radius: 0px;
   text-shadow: none !important;
-	color: rgb(225, 225, 225) !important
+  color: rgb(225, 225, 225) !important;
 }
 
 button.button:hover {
-	background: rgba(120, 120, 120, 0.5);
+  background: rgba(120, 120, 120, 0.5);
   border: none !important;
-	border-radius: 0px;
+  border-radius: 0px;
   text-shadow: none !important;
-	color: rgb(225, 225, 225) !important
+  color: rgb(225, 225, 225) !important;
+}
+
+.alert {
+  background: rgba(0, 0, 0, 0.0);
+  border: none;
+  color: rgb(60, 179, 113);
+  border-radius: 0px !important;
+}
+
+.alert-warning {
+  background: rgba(0, 0, 0, 0.0);
+  border: none;
+  color: rgb(0, 0, 225);
+  border-radius: 0px !important;
+}
+
+.alert-danger {
+  background: rgba(0, 0, 0, 0.0);
+  border: none;
+  color: rgb(225, 0, 0);
+  border-radius: 0px !important;
+}
