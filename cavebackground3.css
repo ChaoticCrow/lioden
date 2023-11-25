@@ -78,6 +78,7 @@ input.floatright:hover {
   background: rgba(120, 120, 120, 0.5) !important;
   border: none !important;
   border-radius: 0px;
+  text-shadow: none !important;
   color: rgb(225, 225, 225);
 }
 
