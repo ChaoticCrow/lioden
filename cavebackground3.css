@@ -71,6 +71,7 @@ input.floatright { /*bookmark button */
   background: rgba(0, 0, 0, 0.0) !important;
   border: none !important;
   border-radius: 0px;
+  text-shadow: none !important;
   color: rgb(225, 225, 225);
 }
 
