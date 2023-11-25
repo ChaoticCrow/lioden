@@ -47,6 +47,7 @@ border-left: none !important;
 }
 
 .navbar li a {
+  background: rgba(0, 0, 0, 0.0)
   color: rgb(225, 225, 225)!important;
   border: none;
 }
@@ -54,13 +55,14 @@ border-left: none !important;
 .navbar li a:hover {
   background: rgba(0, 0, 0, 0.0) !important;
   border: none;
-  color: rgba(120, 120, 120, 0.5) !important;
+  color: rgb(180, 180, 180) !important;
 }
 
 .breadcrumb {
   background: rgba(0, 0, 0, 0.0) !important;
   border: none;
   border-radius: 0px;
+  color: rgb(150, 150, 150);
 }
 
 .breadcrumb .active {
