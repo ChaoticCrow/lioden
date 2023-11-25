@@ -67,7 +67,7 @@ border-left: none !important;
   color: rgb(225, 225, 225);
 }
 
-input.floatright {
+input.floatright { /*bookmark button */
   background: rgba(0, 0, 0, 0.0) !important;
   border: none !important;
   border-radius: 0px;
@@ -82,7 +82,7 @@ input.floatright:hover {
   color: rgb(225, 225, 225);
 }
 
-button.button {
+button.button { /*switch account button*/
   background: rgba(0, 0, 0, 0.0);
   border: none !important;
   border-radius: 0px;
@@ -98,7 +98,7 @@ button.button:hover {
   color: rgb(225, 225, 225) !important;
 }
 
-.alert {
+.alert { /*done hunting*/
   background: rgba(0, 0, 0, 0.0);
   border: none;
   color: rgb(60, 179, 113);
@@ -112,7 +112,7 @@ button.button:hover {
   border-radius: 0px !important;
 }
 
-.alert-danger {
+.alert-danger { /*starving*/
   background: rgba(0, 0, 0, 0.0);
   border: none;
   color: rgb(225, 0, 0);
