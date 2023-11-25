@@ -118,3 +118,8 @@ button.button:hover {
   color: rgb(225, 0, 0);
   border-radius: 0px !important;
 }
+
+h1 {
+  color: rgb(0, 0, 225);
+  text-align: center;
+}
