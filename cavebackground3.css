@@ -54,7 +54,7 @@ border-left: none !important;
 .navbar li a:hover {
   background: rgba(0, 0, 0, 0.0) !important;
   border: none;
-  color: rgb(180, 180, 180) !important;
+  color: rgba(120, 120, 120, 0.5) !important;
 }
 
 .breadcrumb {
@@ -64,5 +64,19 @@ border-left: none !important;
 }
 
 .breadcrumb .active {
+  color: rgb(225, 225, 225);
+}
+
+input.floatright {
+  background: rgba(0, 0, 0, 0.0) !important;
+  border: none !important;
+  border-radius: 0px;
+  color: rgb(225, 225, 225);
+}
+
+input.floatright:hover {
+  background: rgba(120, 120, 120, 0.5) !important;
+  border: none !important;
+  border-radius: 0px;
   color: rgb(225, 225, 225);
 }
