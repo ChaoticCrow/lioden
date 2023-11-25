@@ -57,3 +57,12 @@ border-left: none !important;
   color: rgb(180, 180, 180) !important;
 }
 
+.breadcrumb {
+  background: rgba(0, 0, 0, 0.0) !important;
+  border: none;
+  border-radius: 0px;
+}
+
+.breadcrumb .active {
+  color: rgb(225, 225, 225);
+}
