@@ -80,3 +80,18 @@ input.floatright:hover {
   border-radius: 0px;
   color: rgb(225, 225, 225);
 }
+
+button.button {
+	background: rgba(0, 0, 0, 0.0);
+  border: none !important;
+	border-radius: 0px;
+  text-shadow: none !important;
+	color: rgb(225, 225, 225) !important
+}
+
+button.button:hover {
+	background: rgba(120, 120, 120, 0.5);
+  border: none !important;
+	border-radius: 0px;
+  text-shadow: none !important;
+	color: rgb(225, 225, 225) !important
