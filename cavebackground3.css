@@ -38,3 +38,21 @@ border-left: none !important;
   color: rgb(255, 255, 255);
   border-radius: 0px;
 }
+
+.navbar {
+  background: rgba(0, 0, 0, 0.0);
+  border-bottom: none;
+  color: rgb(225, 225, 225);
+  border-radius: 0px;
+}
+
+.navbar li a {
+  color: rgb(225, 225, 225)!important;
+}
+
+.navbar li a:hover {
+  background: rgba(0, 0, 0, 0.0) !important;
+  border-bottom: none;
+  color: rgb(180, 180, 180) !important;
+}
+
