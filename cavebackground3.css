@@ -18,7 +18,7 @@ min-width: 600px !important;
 
 .col-md-9.col-xs-12 {
 background-color: rgba(0, 0, 0, 0.0) !important;
-border: 4px double #000000 !important;
+border: none !important;
 border-top: none !important;
 border-right: none !important;
 border-bottom: none !important;
