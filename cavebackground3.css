@@ -41,18 +41,19 @@ border-left: none !important;
 
 .navbar {
   background: rgba(0, 0, 0, 0.0);
-  border-bottom: none;
+  border: none;
   color: rgb(225, 225, 225);
   border-radius: 0px;
 }
 
 .navbar li a {
   color: rgb(225, 225, 225)!important;
+  border: none;
 }
 
 .navbar li a:hover {
   background: rgba(0, 0, 0, 0.0) !important;
-  border-bottom: none;
+  border: none;
   color: rgb(180, 180, 180) !important;
 }
 
