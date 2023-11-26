@@ -1,6 +1,7 @@
 body {
 background: url('https://i.imgur.com/6ZNf19b.png') no-repeat center center fixed;
 background-size: cover;
+color: rgb(60, 60, 225);
 }
 
 .col-md-9.col-xs-12 {
