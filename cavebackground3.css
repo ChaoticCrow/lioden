@@ -109,8 +109,13 @@ button.button:hover {
   border-radius: 0px !important;
 }
 
-h1 {
+h1 { /* blank's den */
   color: rgb(60, 60, 225);
   font-size: 50px;
   text-align: center;
+}
+
+h2 { /* title kingname */
+  background: rgba(0, 0, 0, 0.0);
+  color: rgb(60, 60, 225);
 }
