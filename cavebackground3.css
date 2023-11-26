@@ -1,19 +1,6 @@
-@media (min-width:768px) {
 body {
-background: url('https://i.imgur.com/6ZNf19b.png') top center fixed !important;
-background-repeat: no-repeat;
-background-size: 100%;
-}
-}
-
-@media (max-width: 768px) {
-body {
-background: url('https://i.imgur.com/6ZNf19b.png') top center fixed !important;
-background-repeat: no-repeat;
-background-size: 100%;
-width: auto !important;
-min-width: 600px !important;
-}
+background: url('https://i.imgur.com/6ZNf19b.png') no-repeat center center fixed;
+background-size: cover;
 }
 
 .col-md-9.col-xs-12 {
