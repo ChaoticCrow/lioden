@@ -110,6 +110,8 @@ button.button:hover {
 }
 
 h1 {
-  color: rgb(0, 0, 225);
+  color: rgb(60, 60, 225);
+  font-size: 90px;
   text-align: center;
+  font-family: UnifrakturMaguntia;
 }
