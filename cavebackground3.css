@@ -95,13 +95,6 @@ button.button:hover {
   border-radius: 0px !important;
 }
 
-.alert-warning {
-  background: rgba(0, 0, 0, 0.0);
-  border: none;
-  color: rgb(0, 0, 225);
-  border-radius: 0px !important;
-}
-
 .alert-danger { /*starving*/
   background: rgba(0, 0, 0, 0.0);
   border: none;
