@@ -1,0 +1,534 @@
+/* Thank you for checking out this CSS Template!
+This Template was compiled and written by Hok-Z#41458 on Lioden.
+
+For all intents and purposes, this template is meant to be a resource for players who don't know much about CSS and want to get started.
+There's plenty of lovely tutorials out there. Be sure to utilize them to get the most out of this template!
+
+With this Template, you may change anything you wish. You can keep or remove comments as well. Go bananas!
+You do not need to provide credit, but it's appreciated!
+You may use this template for personal use and for commissions.
+
+If you use this template, drop me a DM or comment on my thread!: https://www.lioden.com/topic.php?id=304429453848
+I'd love to know if I'm helping people out! Thank you! ♥
+
+------- NOTES ON THIS TEMPLATE AND TERMINOLOGY -------
+"Elements" are things about CSS that you can change. These elements directly effect what appears on your page.
+
+I will be referring to CSS Elements within Greater/Lessthan symbols for ease of reference, being the following: >> <<
+
+For example: >> color: white !important; << 
+The content between >> << is the element in reference.
+
+
+-------I RECOMMEND USING THE INSPECT FEATURE ON YOUR DEN PAGE TO CHECK REAL-TIME UPDATES!!!!!--------
+
+Main Background
+To change the background image, replace the link in the "background: url" area with a link that ends in .png. 
+I personally use Imgur. The >> @media << tag allows the image to also be viewed on mobile devices, otherwise it'd be a solid color.
+ 
+To have a background image fit the entire page, you need to change the url for the following:
+>> body, .col-md-9.col-xs-12, and .row. << You must change all three parts for the image to fill the whole page.
+
+To change the background to a solid color, simply use >> background: white !important; << or any other color variant.
+If editing while using Inspect Element, you should have a box that appears with a color wheel so you can choose colors while viewing the page.*/
+
+@media (min-width:768px) {
+  body {
+  background: url('https://i.imgur.com/MThCeqr.png') center center fixed !important;
+  top center fixed;position: relative;background-size: cover !important;background-repeat: no-repeat;}}
+
+  div.container.main {
+  background: none !important;
+  border: none !important;}
+
+  .col-md-9.col-xs-12 {
+  background: url('https://i.imgur.com/MThCeqr.png') center center fixed !important;
+  background-size: cover !important;background-repeat: no-repeat;}
+
+  .row {
+  background: url('https://i.imgur.com/MThCeqr.png') center center fixed !important;
+  background-size: cover !important;background-repeat: no-repeat;
+  border: 2px solid #f00f !important;}
+
+/*Lioden Logo Image
+This image replaces the main Lioden Logo. The image should be 192x120px.*/
+  div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+      content: url('https://i.imgur.com/wM0t8WS.png');}
+
+/* Gift Image
+The gift image is 50x50 pixels and will only be viewable by others.*/
+table#player.table img.floatleft {
+  content: url('https://i.imgur.com/utAdf6j.png') !important;}
+  
+/* Event Alert Images - Pumpkins, Snowlions, etc*/
+div.feature.auto img.floatleft {
+  content: url('https://i.imgur.com/AoSxwlb.png') !important;
+  height: 200px !important;
+  margin-left: 30px !important;}
+
+div.feature.auto {
+  background: #00000078 !important;}
+
+/*>> Feature << Includes any "Featured Lion" Boxes within caves.*/
+.feature {
+  background: #0f2f42 !important;
+  color: #C3DAE8!important;
+  border: 1px solid #091B26 !important;
+  }
+ 
+/*Navigation Bar
+The Navbar is everything at the top next to the Lioden Image.
+This includes: Den, Crossroads, Hoard, Oasis, Chatter, News, Event and FAQ.
+>> .navbar << background controls the basic color.
+>> .navbar li a << color controls the Text color.
+>> .navbar li a:hover: << controls the aspects of the navbar when hovered over by a mouse."*/
+  .navbar {background: #3d0e0e !important;border: none !important;font-family: 'Futura,Trebuchet MS,Arial,sans-serif';}
+  
+  .navbar li a {
+  color: #ffffff !important;
+  }
+  
+  .navbar li a:hover {
+  background: #8b2727 !important;
+  }
+
+/*Topbar
+Topbar is above the Navigation Bar. This includes:
+"Welcome Back, Username", your Messages, SB, GB, Journal etc.
+The >> color << option here only controls the text "Welcome back,"*/
+  .topbar {background: #3d0e0e !important;color: #ffaeae !important;border: 2px solid #ff0000 !important;}
+
+  
+/*Alerts
+>> .alert << controls all the "Green" alerts you normally see - such as hunting or forum notifications.
+>> .alert-warning << and >> .alert-danger << controls the "Red" notifications - such as new messages.*/
+  .alert {background: #558a62;border: 1px solid black;color: black;}
+  .alert-warning, .alert-danger {background: #703145; color: white;}
+
+/*
+>> .panel-body << color controls the Text on the right side of the screen.
+This includes the Date, Time, Level and Impression, and Member Counts.*/
+  .panel-body{
+  color: #fdff00;}
+  
+  .col-md-12.col-cs-12 {
+  border: 1px black!important;}
+  
+/*Headers*/
+  h1 {
+  text-align: center !important;
+  color: #ff9900 !important;
+    font-family: 'Courier New', monospace; !important;
+  }
+  
+  h3 {
+  text-align: center !important;
+  color: #C3DAE8 !important;
+  font-family: 'Futura,Trebuchet MS,Arial,sans-serif' !important;
+  }
+  
+/*Home Taskbar
+Controls the "Home/Den" area. The border also extends to the Bookmark button.*/
+  .breadcrumb {
+  background: none !important;
+  color: #ffffff!important;
+  border: none;}
+  
+  .breadcrumb>.active {
+  color: #ffffff;}
+
+/*Feed All Play All*/
+  .feature {
+  background: #532956 !important;
+  color: #ffffff!important;
+  border: 2px solid #ff00fa !important;
+  }
+
+/*Sidebar is the Entire colum on the right side.
+This area's the Event currency, Energy/Hunger bars, Bookmarks, etc down the side.
+To get rid of the black, change the background color to match: >> "background: none !important;" <<*/
+  .sidebar {
+  background: #00000080 !important;
+  border: 2px solid #d800ff!important;
+  }
+
+/*The "Panel" is the different boxes within the sidebar. The box shadow is currently invisible.*/
+  .panel {
+  background: #4b0000 !important;
+  border: 2px solid rgb(255 255 255 / 50%) !important;
+  box-shadow: none !important;
+  }
+  
+/*Caves and Mounds*/
+/*This first "grid" area is for the colors surrounding the grid images.*/
+  .cave-grid{background: #1c6a0f;color: #8cff99; border: 1px solid #72ffb5}
+  
+  .mound-grid{background: #490c43;color: #ff9191; border: 1px solid #ff7676}
+
+/*Cave and Mound Images
+The first link is for the Unsorted cave. CHANGE 12345 to YOUR USER ID!"
+You can use the URLs of the images I have below to gauge what goes where.
+I used Discords "Open in Browser" and copied the link there. It's an alternative to Imgur.
+
+Unsorted, Pregnant Lionesses, and Overview are all 260x60px.
+
+This first cave doesn't have a URL associated with it. This is because visitors can't click on the Pregnant Lioness area - so while the image would appear for you, it won't appear for them.
+By not linking a URL, the "Cave Grid" Defaults to this image instead of the regular one Lioden provides. If any of your other image links are broken, this image would appear instead.*/
+
+/*Pregnant Lionesses*/
+  .cave-grid>img {
+  content: url('https://i.imgur.com/kI2Nicp.png')!important;
+  }
+
+/*Unsorted*/
+  a[href="unsorted.php?id=12345"]>.cave-grid>img {
+  content: url('https://i.imgur.com/kI2Nicp.png')!important;
+  }
+
+/*Pride Overview*/
+  a[href="lionoverview.php?id=41458"]>.cave-grid>img {
+  content: url('https://i.imgur.com/kI2Nicp.png')!important;
+  }
+
+/*Custom Cave Images
+REPLACE the numbers in >> cave.php?id=12345 << with the individual cave ID.
+You can find the Cave ID by clicking on the cave and going to its URL.
+To add more caves, just copy and paste the links.
+Cave images are 240x120px.*/
+  a[href="cave.php?id=70805"]>.cave-grid>img {content: url('https://i.imgur.com/vQklYeu.png')!important;}
+  
+  a[href="cave.php?id=184151"]>.cave-grid>img {content: url('https://i.imgur.com/vQklYeu.png')!important;}
+  
+  a[href="cave.php?id=69751"]>.cave-grid>img {content: url('https://i.imgur.com/vQklYeu.png')!important;}
+  
+  a[href="cave.php?id=19619"]>.cave-grid>img {content: url('https://i.imgur.com/vQklYeu.png')!important;}
+
+  a[href="cave.php?id=201191"]>.cave-grid>img {content: url('https://i.imgur.com/vQklYeu.png')!important;}
+
+/*The same applies to the beetle mounds.
+Mound images are 130x80px.*/
+
+  a[href="unsorted-beetles.php?id=41458"]>.mound-grid>img {
+  content: url('https://i.imgur.com/BuanWh9.png')!important;
+  }
+  
+  a[href="mound.php?id=56581"]>.mound-grid>img {
+  content: url('https://i.imgur.com/BuanWh9.png')!important;
+  }
+  
+.about{background: none !important;
+  color: #ff0000 !important;
+  border: 5px solid #00ff82 !important;
+  text-align: center !important;}
+
+/*About Section
+This controls the table where your king appears on your home page. This also controls the appearance of your player information.
+You can control the appearance of the border. If you wish there to be all sides of the border, you can erase the existing border code and write the following: "border: none !imporant;"*/ 
+  .top {background: #0c3248 !important;color: #87fffe !important;border-top: 1px solid #fefefe !important;border-right: 1px solid #fefefe !important;border-left: 1px solid #fefefe !important;text-align: center !important;font-family: 'Futura,Trebuchet MS,Arial,sans-serif' !important;}
+
+/*Pride Tables
+"th" controls the Table Header. This is the name of each of the caves.*/
+  th {background: #426980 !important;color: #c2f7fd !important;border: 1px solid #fefefe !important;text-align: center !important;font-family: 'Futura,Trebuchet MS,Arial,sans-serif' !important;}
+
+/*Bottom refers to the footers of tables. For this, you can see it at the bottom of "Reclaim lost lions" and "Recent Allies".*/
+  .bottom {
+  background: #453c8b !important;
+  color: #ffffff !important;
+  border: 1px solid #d3eeff !important;
+  text-align: center !important;
+  font-family: 'Futura,Trebuchet MS,Arial,sans-serif' !important;
+  }
+
+/*Pride Tables CONTINUED.
+>> .left << refers to the different rows on the Pride Tables.
+This is where "LVL, Stats, Name, Age and Status" are.
+If you want to override all the Text within the Pride Tables, remove the >> Color:#### !important; << from the following areas:
+>> .right_cub <<
+>> .right_odd <<
+>> .right << */
+  .left {
+  background: #45766a !important;
+  color: #d1ffe0 !important;
+  border: 1px solid #252525 !important;
+  text-align: center !important;
+  font-family: 'Futura,Trebuchet MS,Arial,sans-serif' !important;
+  }
+  
+  .right_cub {background: rgb(255 255 255/ 2%) !important; color: #ffeb01 !important;}
+  .right_odd {background: rgb(0 0 0 / 34%) !important; color: #4ae47b !important;}
+  .right {background: rgb(0 0 0 / 24%)!important; color: #ff0000 !important;}
+
+/*The "Featured Lion" tag is for if you use the CSS within a cave.*/
+  .featured-lion {
+  background-color: #163b52; !important}
+
+  .inner-table {
+  border-spacing: 6px 3px;
+  border-collapse: separate;}
+
+/*>> td << controls the description of the left side of the Sparring menu.*/
+  td {
+      background: rgb(36 55 79 / 64%);
+      color: white;
+      border: 1px solid rgb(255 255 255/ 5%) !important;}
+  
+/*Links
+>> a:link << controls the color of the Logout Button, Online Members/Friends, Refer Friend/Wishlist, and Names in Chatbox.
+>> a:visited << controls the color of your name, bookmarks and other links.
+>> a:hover << changes the color of links when you hover over them with a mouse.*/
+  a:link {
+  color: #70ffff !important;
+  }
+  
+  a:visited {
+  color: #ffffff !important;
+  }
+  
+  a:hover {
+  color: #1c77ad !important;
+  }
+
+/*Buttons*/
+/*The FIRST Input is for the default appearance.
+The SECOND input:focus area is for how it looks when you're typing in it.*/
+
+/*This first segment is the generic Lioden Button.*/
+  input[type="button"] {background: #051806 !important;
+  color: #ffffff !important;
+  border: 1px solid #f98dff !important;
+  text-align: center !important;
+  text-shadow: none !important;
+  box-shadow: none !important;}
+
+  input[type="submit"]:hover {
+  background: #091B26 !important;
+  color: #ff0000 !important;
+  border: 1px solid #91AFC2 !important;
+  text-align: center !important;}
+  
+  input[type="submit"] {background: #07151d !important;color: #C3DAE8 !important;border: 1px solid #91AFC2 !important;text-align: center !important;text-shadow: none !important;box-shadow: none !important;}
+
+/*Chat Text*/
+  input[type="text"] {
+  background: #00a0ff !important;
+  color: #670000 !important;
+  border: 1px solid #f7ff00 !important;
+  text-align: center !important;}
+
+  input[type="text"]:focus {background: #661815 !important;
+  color: #C3DAE8 !important;
+  border: 1px solid #91AFC2 !important;
+  text-align: center !important;}
+
+/*Password*/
+  input[type="password"] {background: #0F2F42 !important;
+  color: #00ff01 !important;
+  border: 1px solid #00ff08 !important;
+  text-align: center !important;}
+
+  input[type="password"]:focus {background: #091B26 !important;
+  color: #C3DAE8 !important;
+  border: 1px solid #91AFC2 !important;
+  text-align: center !important;}
+
+/*"Roar" Button*/
+  input[type="button"]:hover {background: #2fc531 !important;
+  color: #C3DAE8 !important;
+  border: 1px solid #91AFC2 !important;
+  text-align: center !important;}
+
+/*Territory Description*/
+  textarea {background: #0F2F42 !important;
+  color: #ffffff !important;
+  border: 1px solid #ff2727 !important;
+  text-align: center !important;}
+
+  textarea:focus {
+  background: #091B26 !important;
+  color: #C3DAE8 !important;
+  border: 1px solid #91AFC2 !important;
+  text-align: center !important;}
+
+/*Dropdown Menus*/
+  select {background: #142d3d !important;
+  color: #C3DAE8 !important;
+  border: 1px solid #91AFC2 !important;
+  text-align: center !important;}
+  
+  select:focus {background: #f1aa45 !important;
+  color: #C3DAE8 !important;
+  border: 1px solid #91AFC2 !important;
+  text-align: center !important;}
+  
+/*Chatbox
+To lessen the borders just change the pixel size. I wanted them to be visible for the template.*/
+  .s-chat-message:nth-child(odd) {
+      background: #376a2a;
+      color: #e1ff00!important;
+      border: 5px solid #8aff73 !important;}
+  
+  .s-chat-message:nth-child(even) {
+      background: #562900;
+      color: #38ff00!important;
+      border: 5px solid #ff6f6f !important;}
+  
+  .s-chat-message_timestamp {color: #a9ffd194 !important;}
+
+/*Mod Messages and Pinned Messages in the Chatbox*/
+  #fra_chatContainer .modMessage, .s-chat-message__mod {
+  background: #5d2839 !important;}
+  
+  .div#chatMessagePinned {
+  background: #0F2F42 !important;
+  border: #0F2F42 !important;
+  color: white}
+  
+/*Progress Bars
+These are items within the Sidebar.
+These control the Energy, Hunger, EXP, and IMP progress bars.*/
+  .progress {background: #07151d !important;color: white !important;border: 1px solid #051B29 !important;}
+  
+  .progress div {color: white !important;}
+  
+  .progress-bar-warning {background: #4E859C !important;}
+  
+  .progress-bar-danger {background: #703145 !important;}
+  
+  .progress-bar-success {background: #558a62 !important;}
+  
+/*Account Options
+This area controls the Account Options. The Header controls the text and box at the top of each option box.
+The >> .item << controls the area for where the chat "switch" is located.*/
+  .table .left a {background: none !important;}
+  
+  .item-header {background: #1b2d36;color: #C3DAE8; border: 1px solid #91AFC2 !important;}
+  
+  .item {background: #091B26;color: black; border: 1px solid #91AFC2;}
+
+/*Scrollbar Edits*/
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #7f7f7f;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ff9605;
+	border-radius: 4px;
+}
+
+/*Boxes
+ALL BOXES are OPTIONAL! These just allow you to use customized boxes in your Territory description.
+
+To USE BOXES, type the following into your Territory Description:
+
+These boxes are Three separate boxes next to eachother. They need to be within the "BoxTrio" Div container.
+<div class="BoxTrio">
+<div class="BoxLeft"> Left Column Content </div>
+<div class="BoxMid"> Middle Column Content </div>
+<div class="BoxRight"> Right Column Content </div>
+</div>
+
+This Box is one larger box that covers the width of your main profile.
+<div class="BoxCover"> Wide Content Here </div>
+
+*/
+.BoxTrio {
+	background: none;
+	height: 300px;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.BoxLeft {
+	float: left;
+	background: rgb(0 0 0 / 62%);
+	color: #f2ebff;
+	padding: 15px;
+	border: 5px ridge;
+	border-radius: 5px;
+    border-color: #ff0000 !important;
+	float: left;
+	height: 300px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxLeft:hover {
+	overflow-y: auto;
+}
+
+.BoxMid {
+	background: rgb(0 0 0 / 62%);
+	color: #f2ebff;
+	padding: 15px;
+	border: 5px ridge;
+	border-radius: 5px;
+    border-color: #ff9600 !important;
+	height: 300px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxMid:hover {
+	overflow-y: auto;
+}
+
+.BoxRight {
+	background: rgb(0 0 0 / 62%);
+	color: #f2ebff;
+	padding: 15px;
+	border: 5px ridge;
+	border-radius: 5px;
+    border-color: #c3ff00 !important;
+	height: 300px;
+	width: 250px;
+	overflow: hidden;
+	margin: 10px;
+	margin-bottom: 35px;
+}
+
+.BoxRight:hover {
+	overflow-y: auto;
+}
+
+.BoxCover {
+	float: left;
+	background: rgb(0 0 0 / 62%);
+	color: #f2ebff;
+	padding-bottom: 20px;
+	border: 5px ridge;
+	border-radius: 5px;
+    border-color: #00ff9e !important;
+	margin: 5px;
+	float: initial;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+}
+
+.BoxCover:hover {
+	overflow-y: auto;
+}
+
+/*The Credit box is a custom box that sits on the bottom right of the screen.
+If you use this in combination with text in the Description, you can credit yourself if you make CSS for others..
+or even the person who made the template. That'd be dope too! :D*/
+.credit {
+    background: transparent;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    right: 0px;
+    bottom: 0px;
+    width: 180px;
+    height: 40px;
+    overflow: auto;}
